@@ -16,8 +16,8 @@ export default function App() {
         <Route index element={<Inspection />} />
         <Route path="inspection/:id" element={<InspectionDetails />} />
         <Route path="farms" element={<Farms />} />
-        <Route path="grades" element={<ComponentTypes />} />
-        <Route path="component_types" element={<Grades />} />
+        <Route path="grades" element={<Grades />} />
+        <Route path="component_types" element={<ComponentTypes />} />
         <Route path="turbines">
           <Route index element={<Turbines />} />
           <Route path=":id" element={<TurbineComponents />} />
