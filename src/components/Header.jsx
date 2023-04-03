@@ -11,16 +11,22 @@ const Header = props => {
         <div>
           <button
             id="mobile-open-button"
-            className="text-2xl sm:hidden focus:outline-none"
+            className="text-2xl md:hidden focus:outline-none"
           >
             &#9776;
           </button>
-          <nav className="hidden sm:block space-x-8 text-md" aria-label="main">
+          <nav className="hidden md:block space-x-7 text-md" aria-label="main">
             <Link to="/" className="hover:opacity-90">
-              Turbline Inspections
+              Turbine Inspections
             </Link>
             <Link to="/farms" className="hover:opacity-90">
-              Farm
+              Farms
+            </Link>
+            <Link to="/turbines" className="hover:opacity-90">
+              Turbines
+            </Link>
+            <Link to="/component_types" className="hover:opacity-90">
+              Component Types
             </Link>
             <Link to="/grades" className="hover:opacity-90">
               Grades
