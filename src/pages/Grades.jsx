@@ -18,7 +18,7 @@ export default function Grades() {
     <div>
       {data && (
         <Page
-          data={data["data"]}
+          data={data.data}
           head="Grade System List"
           span={` The following table is a Grade  List 
           that shows the number value and their correspondence text `}

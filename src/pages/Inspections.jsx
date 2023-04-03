@@ -19,7 +19,7 @@ export default function Inspection() {
     <div>
       {data && (
         <Page
-          data={data["data"]}
+          data={data.data}
           head="Turbine Inspection List"
           span={` The following table is a Turbine Inspection List that shows which
         turbine is being investigated, along with its location`}

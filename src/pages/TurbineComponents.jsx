@@ -20,8 +20,8 @@ export default function TurbineComponents() {
     <div>
       {data && (
         <Page
-          data={data["data"]["components"]}
-          head={`Turbine "${data["data"]["name"]}": Components List Details`}
+          data={data.data.components}
+          head={`Turbine "${data.data.name}": Components List Details`}
           span={` The following table is a List of the components that the turbine has`}
         />
       )}

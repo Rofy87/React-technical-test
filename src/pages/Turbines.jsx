@@ -19,7 +19,7 @@ export default function Turbines() {
     <div>
       {data && (
         <Page
-          data={data["data"]}
+          data={data.data}
           head="Turbine  List"
           span={` The following table is a Turbine List and its data`}
           url={url}

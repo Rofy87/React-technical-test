@@ -18,7 +18,7 @@ export default function ComponentTypes() {
     <div>
       {data && (
         <Page
-          data={data["data"]}
+          data={data.data}
           head="Component Types List"
           span={` The following table is a Component Types  List `}
         />

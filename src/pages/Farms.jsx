@@ -18,7 +18,7 @@ export default function Farms() {
     <div>
       {data && (
         <Page
-          data={data["data"]}
+          data={data.data}
           head="Farms  List"
           span={` The following table is a Farms List 
           that shows their street name along with longitude and latitude`}
