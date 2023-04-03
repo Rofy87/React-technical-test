@@ -1,16 +1,18 @@
 import useApiRequest from "../hooks/useApiRequest";
 import Page from "../components/Page";
+import Error from "../components/Error";
+import Loading from "../components/Loading";
 
 export default function Turbines() {
   const { loading, data, error } = useApiRequest("turbines");
   const url = { text: "Details", link: "../turbines" };
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <Loading />;
   }
 
   if (error) {
-    return <div>Error: {error.message}</div>;
+    return <Error message={error.message} />;
   }
 
   return (
