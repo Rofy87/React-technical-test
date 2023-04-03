@@ -3,6 +3,7 @@ import Page from "../components/Page";
 
 export default function Inspection() {
   const { loading, data, error } = useApiRequest("inspections");
+  const url = { text: "Details", link: "inspection" };
 
   if (loading) {
     return <div>Loading...</div>;
@@ -20,6 +21,7 @@ export default function Inspection() {
           head="Turbine Inspection List"
           span={` The following table is a Turbine Inspection List that shows which
         turbine is being investigated, along with its location`}
+          url={url}
         />
       )}
     </div>

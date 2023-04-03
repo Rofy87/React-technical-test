@@ -19,9 +19,9 @@ export default function InspectionDetails() {
       {data && (
         <Page
           data={data["data"]["inspectionDetails"]}
-          head="Turbine Inspection List"
-          span={` The following table is a Turbine Inspection List that shows which
-        turbine is being investigated, along with its location`}
+          head={`Turbine "${data["data"]["turbine_name"]}": Inspection Details`}
+          span={` The following table is a Turbine Inspection detail that shows which
+          compnonets of the turbine and its conditions`}
         />
       )}
     </div>
