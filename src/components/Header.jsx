@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = props => {
   return (
@@ -14,16 +15,16 @@ const Header = props => {
           >
             &#9776;
           </button>
-          <nav className="hidden sm:block space-x-8 text-lg" aria-label="main">
-            <a href="#rockets" className="hover:opacity-90">
-              Our Rockets
-            </a>
-            <a href="#testimonials" className="hover:opacity-90">
-              Testimonials
-            </a>
-            <a href="#contact" className="hover:opacity-90">
-              Contact Us
-            </a>
+          <nav className="hidden sm:block space-x-8 text-md" aria-label="main">
+            <Link to="/" className="hover:opacity-90">
+              Turbline Inspections
+            </Link>
+            <Link to="/farms" className="hover:opacity-90">
+              Farm
+            </Link>
+            <Link to="/grades" className="hover:opacity-90">
+              Grades
+            </Link>
           </nav>
         </div>
       </section>
