@@ -1,4 +1,4 @@
-![screenshots](https://user-images.githubusercontent.com/13961842/229758244-31921cef-330e-45d5-817b-05a2de178bd9.jpg)
+
 # My React Project
 
 This React project is built with Vite. The project is fully responsive and uses Tailwind CSS for styling.
