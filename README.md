@@ -1,3 +1,4 @@
+![screenshots](https://user-images.githubusercontent.com/13961842/229758244-31921cef-330e-45d5-817b-05a2de178bd9.jpg)
 # My React Project
 
 This React project is built with Vite. The project is fully responsive and uses Tailwind CSS for styling.
@@ -28,3 +29,7 @@ To modify the API URL, open the `.env` file and replace the `VITE_API_END_POINT`
 1. In the terminal, navigate to the project directory.
 2. Run `npm run build` or `yarn build` to build the project.
 3. The built project will be placed in the `dist` directory.
+
+### Screenshot of the project
+
+![screenshots](https://user-images.githubusercontent.com/13961842/229758244-31921cef-330e-45d5-817b-05a2de178bd9.jpg)
